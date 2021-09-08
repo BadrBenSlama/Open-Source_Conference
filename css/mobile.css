@@ -97,7 +97,6 @@ nav {
 .header_text {
   font-size: 25px;
   font-weight: 700;
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   background-image: url("../img/text_background.jpg");

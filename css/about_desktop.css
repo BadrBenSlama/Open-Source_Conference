@@ -1,4 +1,123 @@
-.fa-bars {
+@font-face {
+  font-family: coco;
+  src: url(../font/coco.otf);
+}
+
+@font-face {
+  font-family: lato-light;
+  src: url(../font/lato/Lato-Light.ttf);
+}
+
+@font-face {
+  font-family: lato;
+  src: url(../font/lato/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: lato-bold;
+  src: url(../font/lato/Lato-Bold.ttf);
+}
+
+@font-face {
+  font-family: lato-italic;
+  src: url(../font/lato/Lato-Italic.ttf);
+}
+
+.blacky {
+  color: #272a31;
+}
+
+.orange {
+  color: #ec5242;
+}
+
+.grey {
+  color: #d3d3d3;
+}
+
+.flex {
+  display: flex;
+}
+
+#open_menu,
+#mobile_menu_close,
+#mobile_menu,
+.nav_container {
   display: none;
 }
 
+.desktop_nav {
+  background-color: white;
+  justify-content: space-between;
+}
+
+.desktop_nav_items {
+  font-family: 'lato', sans-serif;
+  margin-left: 60px;
+  align-self: center;
+}
+
+#nav_item_right_margin {
+  margin-right: 80px;
+  border: #ec5242 solid 5px;
+  padding: 15px;
+  color: #ec5242;
+}
+
+.logo_desktop {
+  margin-left: 60px;
+  align-items: center;
+}
+
+.desktop_nav_items > a {
+  text-decoration: none;
+  color: black;
+}
+
+.desktop_nav_items > a:hover {
+  color: #ec5242;
+}
+
+.background {
+  background-image: url("../img/Desktop-Background.png");
+  padding-top: 30px;
+  padding-bottom: 150px;
+}
+
+.heading {
+  font-family: 'coco', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: url("../img/text_background.jpg");
+}
+
+.border_title_bottom {
+    margin-top: 12px;
+    border-bottom: rgba(236, 82, 66, 0.7) 2px solid;
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .event_description {
+    background-color: white;
+    border: #d3d3d3 solid 2px;
+    width: 60%;
+    margin: 20px auto 35px auto;
+    padding: 25px;
+    text-align: center;
+  }
+
+.please_contact{
+    text-align: center;
+}
+
+.email_contact {
+    text-align: center;
+}
+
+  .email_contact > a {
+      color: black;
+  }

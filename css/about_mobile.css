@@ -40,6 +40,10 @@
   display: flex;
 }
 
+.mobile_none {
+  display: none;
+}
+
 .main_container {
   min-height: 100vh;
 }
@@ -91,7 +95,6 @@ nav {
 .header_text {
   font-size: 25px;
   font-weight: 700;
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   background-image: url("../img/text_background.jpg");
@@ -243,4 +246,3 @@ nav {
   font-family: 'lato-light', sans-serif;
   font-size: 11px;
 }
-
