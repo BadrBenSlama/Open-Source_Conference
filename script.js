@@ -35,7 +35,7 @@ const speakers = [
   },
   {
     name: 'Linus Torvalds',
-    occupation: 'American free software movement activist and GNU founder',
+    occupation: 'Creator of Linux OS',
     talk: 'Linus doesn\'t like CPP',
     imageUrl: 'img/linus1.png',
   },
@@ -46,7 +46,7 @@ const speakers = [
     imageUrl: 'img/ritchie1.png',
   },
 ];
-// Loop through speakers and fill the section
+// Loop through speakers and fill the section in mobile version
 let htmlDocument = '';
 
 speakers.forEach((item) => {
@@ -62,3 +62,72 @@ speakers.forEach((item) => {
 });
 
 speakersSection.innerHTML = htmlDocument;
+
+// Loop through speakers and fill the section in desktop version
+const desktopSpeakers = [
+  {
+    name: 'Richard Stallman',
+    occupation: 'American free software movement activist and GNU founder',
+    talk: 'Richard Stallman doesn\'t like bloatware',
+    imageUrl: 'img/speaker1.png',
+    speaker: 'speaker1',
+    margin: ['left_margin', 'right_margin'],
+  },
+  {
+    name: 'Linus Torvalds',
+    occupation: 'Creator of Linux OS',
+    talk: 'Linus doesn\'t like CPP',
+    imageUrl: 'img/speaker2.png',
+    speaker: 'speaker2',
+    margin: ['left_margin', 'right_margin'],
+  },
+  {
+    name: 'Dennis Ritchie',
+    occupation: 'Computer scientist and creator of C language',
+    talk: 'We resurrected Mr Dennis from his grave for this event',
+    imageUrl: 'img/speaker3.png',
+    speaker: 'speaker3',
+    margin: ['left_margin', 'right_margin'],
+  },
+  {
+    name: 'Richard Stallman',
+    occupation: 'American free software movement activist and GNU founder',
+    talk: 'Richard Stallman doesn\'t like bloatware',
+    imageUrl: 'img/speaker4.png',
+    speaker: 'speaker4',
+    margin: ['left_margin', 'right_margin'],
+  },
+  {
+    name: 'Richard Stallman',
+    occupation: 'American free software movement activist and GNU founder',
+    talk: 'Richard Stallman doesn\'t like bloatware',
+    imageUrl: 'img/speaker5.png',
+    speaker: 'speaker5',
+    margin: ['left_margin', 'right_margin'],
+  },
+  {
+    name: 'Richard Stallman',
+    occupation: 'American free software movement activist and GNU founder',
+    talk: 'Richard Stallman doesn\'t like bloatware',
+    imageUrl: 'img/speaker6.png',
+    speaker: 'speaker6',
+    margin: ['left_margin', 'right_margin'],
+  },
+];
+
+let htmlDocumentDesktop = '';
+
+desktopSpeakers.forEach((item) => {
+  htmlDocumentDesktop += `<div class="speaker flex ${item.speaker} ${item.margin[0]}">
+    <div class="speaker_pics"><img class="speaker_pic" src="${item.imageUrl}"></div>
+    <div class="speaker_text">
+        <p class="speaker_name">${item.name}</p>
+        <p class="speaker_who orange">${item.occupation}</p>
+        <div class="border_bottom"></div>
+        <p class="speaker_what">${item.talk}</p>
+    </div>
+</div>`;
+});
+
+const grid = document.querySelector('.grid');
+grid.innerHTML = htmlDocumentDesktop;
