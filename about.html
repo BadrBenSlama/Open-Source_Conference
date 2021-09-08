@@ -17,7 +17,7 @@
 <body>
     <div class="main_container">
         <div class="nav_container">
-            <nav><i class="fas fa-bars fa-lg"></i></nav>
+            <nav><i class="fas fa-bars fa-lg" id="open_menu"></i></nav>
             <div class="header_text"><span id="hello">"hello world !"</span><br>Global World Summit of #Open Source
                 enthusiasts</div>
             <div class="event_description">Global World Open-Source summit where all freedom and transparancy lovers
@@ -28,22 +28,55 @@
                 <a class="email" href="mailto:hello@globalopensource.org">hello@globalopensource.org</a>
             </div>
         </div>
+        <div>
+            <div class="mobile_menu" id="mobile_menu">
+                <i class="fas fa-times fa-lg" id="mobile_menu_close"></i>
+                <div>
+                    <div class="mobile_menu_navigation"><a href="/index.html">Home</a></div>
+                    <div class="mobile_menu_navigation"><a href="/about.html">About</a></div>
+                </div>
+            </div>
+        </div>
         <div class="logo_section">
-            <span>Global World Open-Source summit 2022 logo</span>
+            <div class="summit_2022">Global World Open-Source summit 2022 logo </div>
             <div id="border_title_bottom"></div>
-            <span>The logo of Global World Open-Source summit 2022 was decided through the logo competition from 8 June
-                to 7 July</span>
+            <div class="logo_description">The logo of Global World Open-Source summit 2022 was decided through the
+                logo competition from 8 June
+                to 7 July</div>
             <div class="logo flex"><img src="img/logo.png"></div>
             <div class="full_grey_bottom_border"></div>
-            <span>see the past Global World Open-Source summits</span>
+            <div class="past_summits">see the past Global World Open-Source summits</div>
             <div id="border_title_bottom"></div>
-            <div class="summit_color flex"><img class="summit_photo" src="img/defcon.jpg">
-                <div class="centered">2019</div>
-                <div class="under_center">Global World Summit in North Korea</div>
+            <div id="blured">
+                <div class="summit_color flex"><img class="summit_photo" src="img/defcon.jpg">
+                    <div class="centered">2019</div>
+                    <div class="under_center">Global World Summit in North Korea</div>
+                </div>
+                <div class="summit_color flex"><img class="summit_photo" src="img/summit.jpg">
+                    <div class="centered">2020</div>
+                    <div class="under_center">Global World Summit in Russia</div>
+                </div>
             </div>
-            <div class="summit_color"><img class="summit_photo" src="img/summit.jpg"></div>
+        </div>
+        <div class="footer">
+            <div class="partners_background">
+                <div class="partner flex">Parnters</div>
+                <div id="border_title_bottom"></div>
+                <div class="footer_images_row flex">
+                    <img class="footer_images apple" src="img/apple.png">
+                    <img class="footer_images" src="img/microsoft.svg">
+                    <img class="footer_images" src="img/google.png">
+                    <img class="footer_images" src="img/mozilla.png">
+                    <img class="footer_images airbnb" src="img/airbnb.png">
+                </div>
+            </div>
+            <div class="footer_end flex">
+                <div class="footer_big">Global World Open Source Summit North Korea</div>
+                <div class="footer_small">2022 Summit, some rights reserved</div>
+            </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
