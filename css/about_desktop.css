@@ -51,6 +51,10 @@
   justify-content: space-between;
 }
 
+.email_contact > a {
+  color: black;
+}
+
 .desktop_nav_items {
   font-family: 'lato', sans-serif;
   margin-left: 60px;
@@ -90,34 +94,119 @@
   text-align: center;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: url("../img/text_background.jpg");
+  background-image: url("../img/text_background1.jpeg");
 }
 
 .border_title_bottom {
-    margin-top: 12px;
-    border-bottom: rgba(236, 82, 66, 0.7) 2px solid;
-    width: 30px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  margin-top: 12px;
+  border-bottom: rgba(236, 82, 66, 0.7) 2px solid;
+  width: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  .event_description {
-    background-color: white;
-    border: #d3d3d3 solid 2px;
-    width: 60%;
-    margin: 20px auto 35px auto;
-    padding: 25px;
-    text-align: center;
-  }
+.event_description {
+  background-color: white;
+  border: #d3d3d3 solid 2px;
+  width: 60%;
+  margin: 20px auto 35px auto;
+  padding: 25px;
+  text-align: center;
+}
 
-.please_contact{
-    text-align: center;
+.please_contact {
+  text-align: center;
 }
 
 .email_contact {
-    text-align: center;
+  text-align: center;
 }
 
-  .email_contact > a {
-      color: black;
-  }
+.summit_2022 {
+  text-align: center;
+  font-family: 'coco', sans-serif;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.logo_description {
+  font-family: 'lato', sans-serif;
+  text-align: center;
+  width: 70%;
+  margin: 15px auto 0 auto;
+}
+
+.logo {
+  border: #d3d3d3 solid 3px;
+  width: 20%;
+  margin: 15px auto 15px auto;
+  justify-content: center;
+  padding: 15px 30px 15px 30px;
+}
+
+.full_grey_bottom_border {
+  border: solid 1px #d3d3d3;
+  margin-bottom: 25px;
+}
+
+.past_summits {
+  text-align: center;
+  font-family: 'coco', sans-serif;
+  font-size: 20px;
+}
+
+.take_a_look {
+  font-family: 'lato', sans-serif;
+  text-align: center;
+  width: 70%;
+  margin: 15px auto 50px auto;
+}
+
+.summits_desktop_flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.summit_photo {
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+}
+
+.summit_color {
+  background-color: #ec5242;
+  width: 25%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 15px;
+  position: relative;
+  text-align: center;
+  color: white;
+  align-items: center;
+  flex-direction: column;
+}
+
+.summit_photo1 {
+  margin-left: 20%;
+}
+
+.summit_photo2 {
+  margin-right: 20%;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'coco', sans-serif;
+  font-size: 30px;
+}
+
+.under_center {
+  display: flex;
+  top: 60%;
+  text-align: center;
+  position: absolute;
+  font-family: 'coco', sans-serif;
+}
