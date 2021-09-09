@@ -131,7 +131,7 @@ nav {
   color: #ec5242;
 }
 
-#border_title_bottom {
+.border_title_bottom {
   margin-top: 10px;
   margin-bottom: 10px;
   border-bottom: rgba(236, 82, 66, 0.7) 2px solid;
