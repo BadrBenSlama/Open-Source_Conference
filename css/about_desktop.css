@@ -42,7 +42,8 @@
 #open_menu,
 #mobile_menu_close,
 #mobile_menu,
-.nav_container {
+.nav_container,
+.desktop_none {
   display: none;
 }
 
@@ -209,4 +210,22 @@
   text-align: center;
   position: absolute;
   font-family: 'coco', sans-serif;
+}
+
+.footer_end {
+  justify-content: space-around;
+  padding: 25px 5px;
+  background-color: #414246;
+}
+
+.footer_big {
+  font-family: 'coco', sans-serif;
+  font-size: 11px;
+  color: white;
+}
+
+.footer_small {
+  font-family: 'lato-light', sans-serif;
+  font-size: 11px;
+  color: white;
 }
