@@ -17,7 +17,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://goldinium.github.io/Portfolio_works/)
+[Live Demo Link](https://goldinium.github.io/Open-Source_Conference/)
 
 
 ## Getting Started
@@ -26,10 +26,10 @@
 To get a local copy up and running
 
 Clone using SSH
-git@github.com:Goldinium/Portfolio_works.git
+git@github.com:Goldinium/Open-Source_Conference.git
 
 Clone using HTTPS
-https://github.com/Goldinium/Portfolio_works.git
+https://github.com/Goldinium/Open-Source_Conference.git
 
 
 ## Authors
