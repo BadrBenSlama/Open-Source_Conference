@@ -17,7 +17,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://goldinium.github.io/Open-Source_Conference/)
+[Live Demo Link](https://badrbenslama.github.io/Open-Source_Conference/)
 
 
 ## Getting Started
@@ -26,17 +26,17 @@
 To get a local copy up and running
 
 Clone using SSH
-git@github.com:Goldinium/Open-Source_Conference.git
+git@github.com:badrbenslama/Open-Source_Conference.git
 
 Clone using HTTPS
-https://github.com/Goldinium/Open-Source_Conference.git
+https://github.com/badrbenslama/Open-Source_Conference.git
 
 
 ## Authors
 
-👤 Goldinium
+👤 badrbenslama
 
-- GitHub: [@goldinium](https://github.com/goldinium)
+- GitHub: [@badrbenslama](https://github.com/badrbenslama)
 
 ## Inspiration
 
